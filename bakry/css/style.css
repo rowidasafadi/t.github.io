@@ -1,0 +1,101 @@
+body{background-color:red;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+.container{
+	width:1100px;
+	margin:auto;
+}
+.header{
+	
+  background-image:url('../img/bakery.jpg');
+ overflow:hidden;
+ background-size:cover;
+ background-size:100%100%;
+ background-position:center center;
+ height:100vh;
+}
+
+.header .nav{
+	
+	position:fixed;
+	width:60%;
+	padding-top:20px;
+	overflow:hidden;
+	
+}
+.header .nav .navbar{
+	float:left;width:60%;
+	margin-top:10px; 
+
+}
+.header .nav .logo{float:left;width:40%;
+
+}
+
+
+
+ .nav .logo img{
+	width:50%;
+}
+
+.header-content a.learn{
+	
+}
+
+
+.header .nav .navbar ul{
+	
+	list-style:none;
+	list-style-type:none;
+	overflow:hidden;
+}
+.header .nav .navbar ul li{
+	padding:20px;
+float:left;}
+
+
+.header .nav .navbar ul li a{
+	
+text-decoration:none;
+
+color: #fff;
+font-size:20px; 
+} 
+
+.header .headercontent{
+	
+	  /** margin-top:100px;/* بصير اعمل هيك مع hidden overflow تبع الاب headerconten*/   
+	   padding-top:300px; /*او بعمل هاي وبريح راسي */
+text-align:center;
+}
+
+.header .button{
+	margin-top:40px;
+}
+
+.header .headercontent a{
+	
+	color:white;
+	 border:2px solid white;  
+	 padding:20px;
+	 text-decoration:none; 
+	 box-sizing:border-box;
+	 margin-left:20px;
+	
+	
+	}
+	
+	.headercontent a.learn{
+		border:0;
+		background-color:red;
+	}
+	
+	
+	
+	
+	
+	
